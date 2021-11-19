@@ -1,0 +1,84 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  background-image: url("/images/bg-gradient.png");
+  background-size: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.vertical-timeline-element-icon svg {
+  background: none !important;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed),
+.accordion-button:focus {
+  background-color: transparent !important;
+  color: white !important;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  background-image: url("../public/icons8-expand-arrow-96.png") !important;
+}
+
+.accordion-button .collapsed::after {
+  background-image: url("../public/Icon-awesome-minus.png") !important;
+}
+
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "PrestigeEliteStd";
+  src: url("../font/PrestigeEliteStd.otf");
+}
+
+* {
+  font-family: "PrestigeEliteStd";
+}
+
+.accordion-button::after {
+  content: "";
+  position: absolute;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  color: red;
+  right: 0;
+}
+
+.navbars .dashboard:hover {
+  background-color: #000 !important;
+}
+
+.navbars .menu-container a {
+  font-weight: 800 !important;
+}
+
+.navbars {
+  background: #0a1c3fce !important;
+  backdrop-filter: blur(10 px) !important;
+
+}
